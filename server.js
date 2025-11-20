@@ -3,7 +3,7 @@ const app = express();
 const port = 8080;
 
 app.get('/', (req, res) => {
-  res.send("Helló, világ! Igen, én is csak egy szerény Node.js app vagyok… de legalább működöm!");
+  res.send("Hello, világ! Igen, én is csak egy szerény Node.js app vagyok… de legalább működöm!");
 });
 
 app.listen(port, () => {
